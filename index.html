@@ -7,7 +7,7 @@
         <title>X5 Demonlist</title>
 
         <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
-        <link rel="icon" href="/list_icon.png" />
+        <link rel="icon" href="./list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -21,7 +21,7 @@
         <link
             rel="stylesheet"
             type="text/css"
-            href="/css/pages/leaderboard.css"
+            href="./css/pages/leaderboard.css"
         />
         <link rel="stylesheet" type="text/css" href="./pages/roulette.css" />
         <link rel="stylesheet" type="text/css" href="./components/nav.css" />
@@ -29,11 +29,11 @@
         <link
             rel="stylesheet"
             type="text/css"
-            href="/css/components/tabs.css"
+            href="./css/components/tabs.css"
         />
         <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
         <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
-        <script type="module" src="/js/main.js"></script>
+        <script type="module" src="./js/main.js"></script>
     </head>
     <body id="app">
         <header :class="{ dark: store.dark }">
@@ -53,7 +53,7 @@
                 </router-link>
                 <div class="nav__actions">
                         <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+                            :src="store.dark ? './assets/light.svg' : './assets/dark.svg'"
                             alt=""
                         />
                 </div>
