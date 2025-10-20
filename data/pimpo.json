@@ -1,0 +1,27 @@
+{
+    "id": 125552955,
+    "name": "Pimpo",
+    "author": "aivars999",
+    "creators": [],
+    "verifier": "aivars999",
+    "percentToQualify": 100,
+    "password": "Free To Copy",
+    "records": [
+        {
+          "user": "Dabber",
+          "percent": 100,
+        },
+      {
+        "user": "theaxlotl",
+        "percent": 100,
+      },
+      {
+      "user": "ExactlidGMD",
+        "percent": 100,
+      },
+      {
+        "user": "Bob5127"
+        "percent": 100,
+      }
+    ]
+}
